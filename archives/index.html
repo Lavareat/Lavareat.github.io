@@ -1,187 +1,361 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  
-  
-  <title>Archives | Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/archives/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
-<meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="shortcut icon" href="/favicon.png">
-  
-  
-  
-<link rel="stylesheet" href="/css/style.css">
-
-  
-    
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
-
-  
-  
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css">
-
+    <head>
+    <!--Theme is ning by ning0818. See https://github.com/ning0818/hexo-theme-ning-->
+    <script src=/app.js></script>
+    <link rel="stylesheet" href="https://jsd.onmicrosoft.cn/gh/ning0818/CDN-Files/ai.css">
+    <link href="https://cdn.bootcss.com/highlight.js/8.0/styles/monokai_sublime.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/highlight.js/8.0/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+    <style>
+    .ai-summary {
+    background: #f1f3f8;
+    border-radius: 10px;
+    padding: 12px;
+    line-height: 1.3;
+    border: 1px solid #e3e8f7;
+    margin-bottom: 16px;
+    </style>
+    <link rel="shortcut icon" href="https://www.yuanning0818.tk/logo.png" type="image/x-icon">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <link rel="stylesheet" class="nightmode" href="/assets/css/main.css">
+    <link rel="stylesheet" href="https://npm.elemecdn.com/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <script async src="https://npm.elemecdn.com/penndu@1.0.0/bsz.js"></script>
+    <link rel="stylesheet" class="nightmode" href="/css/style.css">
+    <link rel="stylesheet" class="nightmode" href="/css/plugin.css">
+    <script src="/js/pandown.js"></script>
 <meta name="generator" content="Hexo 7.3.0"></head>
+    <body>
+        <div class="container">
+            <body class="no-touch">
+    <div id="app" class="App affix App--index" style="min-height: 744px;" aria-hidden="false">
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-        
-          <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
-        
-        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-
-      <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2025" class="archive-year">2025</a>
+        <div id="app-navigation" class="App-navigation">
+            <div class="Navigation ButtonGroup App-backControl"><button class="Button Button--icon Navigation-drawer hasIcon" type="button" aria-label="打开导航抽屉"><i aria-hidden="true" class="icon fas fa-bars Button-icon"></i><span class="Button-label"></span></button></div>
         </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2025/02/22/hello-world/" class="archive-article-date">
-  <time class="dt-published" datetime="2025-02-22T12:19:44.433Z" itemprop="datePublished">Feb 22</time>
-</a>
-      
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2025/02/22/hello-world/">Hello World</a>
-    </h1>
-  
 
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
+        <div id="drawer" class="App-drawer">
 
+            <header id="header" class="App-header navbar-fixed-top">
+                <div id="header-navigation" class="Header-navigation">
+                    <div class="Navigation ButtonGroup"></div>
+                </div>
+                <div class="container">
+                    <div class="Header-title">
+                        <a href="/" id="home-link">
+                            <!--顶栏logo-->
+                            <img src="https://www.yuanning0818.tk/logo.png" alt="首页" class="Header-logo">
+                            <!--顶栏logo end-->
+                        </a>
+                    </div>
+                    <div id="header-primary" class="Header-primary">
+                        <ul class="Header-controls">
+                            <!--顶栏内容-->
+                            
+                            <li class="item-link4">
+                                <a class="LinksButton Button Button--link active" href="/">
+                                    <!--<i aria-hidden="true" class="icon fas fa-home Button-icon LinksButton-icon"></i>-->
+                                    <span class="LinksButton-title">首页</span>
+                                </a>
+                            </li>
+                            
+                            <li class="item-link4">
+                                <a class="LinksButton Button Button--link active" href="/tags/">
+                                    <!--<i aria-hidden="true" class="icon fas fa-home Button-icon LinksButton-icon"></i>-->
+                                    <span class="LinksButton-title">标签</span>
+                                </a>
+                            </li>
+                            
+                            <!--顶栏内容 end-->
+                        </ul>
+                    </div>
+                    <div id="header-secondary" class="Header-secondary">
+                        <ul class="Header-controls">
+                            
+                                
+                                <li class="item-nightmode">
+                                    <button class="Button Button--flat hasIcon" type="button">
+                                        <a href="/">
+                                        <i aria-hidden="true" class="bi bi-house-door"></i>
+                                        <span class="Button-label">首页</span>
+                                        </a>
+                                    </button>
+                                </li>
+                            
+                                
+                                <li class="item-nightmode">
+                                    <button class="Button Button--flat hasIcon" type="button">
+                                        <a target="_blank" rel="noopener" href="https://github.com/ning0818/">
+                                        <i aria-hidden="true" class="bi bi-github"></i>
+                                        <span class="Button-label">Github</span>
+                                        </a>
+                                    </button>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </header>
 
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/02/">February 2025</a></li></ul>
+        </div>
+            <title>Mizue&#39;s Blog</title>
+<main class="App-content">
+    <div id="content">
+        <div class="IndexPage">
+            <div class="container">
+                <div class="sideNavContainer">
+                    <nav class="IndexPage-nav sideNav">
+                        <ul>
+                            <li class="item-nav">
+                                <div class="ButtonGroup Dropdown dropdown App-titleControl Dropdown--select itemCount12"><button class="Dropdown-toggle Button" aria-haspopup="menu" aria-label="导航栏下拉菜单开关" data-toggle="dropdown"><span class="Button-label">全部主题</span><i aria-hidden="true" class="icon fas fa-sort Button-caret"></i></button>
+                                    <ul class="Dropdown-menu dropdown-menu ">
+                                        
+                                            
+                                            <li class="item-allDiscussions active">
+                                                <a class="hasIcon" href="/" active="true">
+                                                    <i aria-hidden="true" class="bi bi-house-door"></i>
+                                                    <span class="Button-label">首页</span>
+                                                </a>
+                                            </li>
+                                        
+                                            
+                                            <li class="item-allDiscussions active">
+                                                <a class="hasIcon" href="/atom.xml" active="true">
+                                                    <i aria-hidden="true" class="bi bi-rss"></i>
+                                                    <span class="Button-label">rss</span>
+                                                </a>
+                                            </li>
+                                        
+                                            
+                                            <li class="item-allDiscussions active">
+                                                <a class="hasIcon" href="/moments/" active="true">
+                                                    <i aria-hidden="true" class="bi bi-share"></i>
+                                                    <span class="Button-label">朋友圈</span>
+                                                </a>
+                                            </li>
+                                        
+                                        <li class="Dropdown-separator"></li>
+                                        <hr>
+                                        
+                                            
+                                            <li class="item-tag1">
+                                                <a class="TagLinkButton hasIcon" href="/link/" title="友人帐" style="--color: #00b7ff;">
+                                                    <i class="bi bi-people-fill" style="--color: #00b7ff; color: rgb(0, 183, 255);"></i>
+                                                    <span class="Button-label">友人帐</span>
+                                                </a>
+                                            </li>
+                                        
+                                            
+                                            <li class="item-tag1">
+                                                <a class="TagLinkButton hasIcon" href="/atom.xml" title="rss" style="--color: #00b7ff;">
+                                                    <i class="bi bi-rss" style="--color: #00b7ff; color: rgb(0, 183, 255);"></i>
+                                                    <span class="Button-label">rss</span>
+                                                </a>
+                                            </li>
+                                        
+                                            
+                                            <li class="item-tag1">
+                                                <a class="TagLinkButton hasIcon" href="/moments/" title="朋友圈" style="--color: #00b7ff;">
+                                                    <i class="bi bi-share" style="--color: #00b7ff; color: rgb(0, 183, 255);"></i>
+                                                    <span class="Button-label">朋友圈</span>
+                                                </a>
+                                            </li>
+                                        
+                                            
+                                            <li class="item-tag1">
+                                                <a class="TagLinkButton hasIcon" href="/fcircle/" title="文坛" style="--color: #00b7ff;">
+                                                    <i class="bi bi-people" style="--color: #00b7ff; color: rgb(0, 183, 255);"></i>
+                                                    <span class="Button-label">文坛</span>
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item-startBottomWidgetSection">
+                                <div class="AfruxWidgets-startBottom AfruxWidgets-WidgetSection"></div>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="IndexPage-results sideNavOffset">
+                        <div class="DiscussionList">
+                            <ul role="feed" class="DiscussionList-discussions">
+                                
+                                <li data-id="193" role="article" aria-setsize="-1" aria-posinset="0">
+                                    <div class="DiscussionListItem"><span class="Slidable-underneath Slidable-underneath--left Slidable-underneath--elastic disabled"><i aria-hidden="true" class="icon fas fa-check"></i></span>
+                                        <div class="DiscussionListItem-content Slidable-content read"><a class="DiscussionListItem-author" href="/about/" title="" aria-label="Mizue&#39;s Blog 发布于 3 天前" data-original-title="Mizue&#39;s Blog 发布于 3 天前"><img class="Avatar" loading="lazy" src="https://www.yuanning0818.tk/logo.png" alt=""></a><a href="/2025/02/22/hello-world/" class="DiscussionListItem-main">
+                                                <h2 class="DiscussionListItem-title">Hello World</h2>
+                                                <ul class="DiscussionListItem-info">
+                                                    <!--<li class="item-tags"><span class="TagsLabel"><span class="TagLabel  colored text-contrast--dark" style="--tag-bg: #ff9500;"><span class="TagLabel-text"><span class="TagLabel-name">讨论</span></span></span></span></li>-->
+                                                    <hr>
+                                                    <!--<li class="item-discussion-views"><span>20</span></li>-->
+                                                    <li class="item-excerpt">
+                                                        <div>2025-02-22</div>
+                                                    </li>
+                                                </ul>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="AfruxWidgets-sideNavAlt AfruxWidgets-WidgetSection">
+    <div class="AfruxWidgets-Widget welcomebox-widget">
+        <div class="AfruxWidgets-Widget-content">
+            <div class="containerwb">
+                <div class="backgrwb">
+                    <div><a href="/">
+                            <div class="avatarwb">
+                                <div class="AvatarEditor Dropdown">
+                                    <!--侧栏logo-->
+                                    <img loading="eager" class="Avatar" src="https://www.yuanning0818.tk/logo.png" alt="">
+                                    <!--侧栏logo end-->
+                                    <ul class="Dropdown-menu Menu">
+                                        <li class="item-upload"><button class="hasIcon" type="button"><i aria-hidden="true" class="icon fas fa-upload Button-icon"></i><span class="Button-label">上传</span></button></li>
+                                        <li class="item-remove"><button class="hasIcon" type="button"><i aria-hidden="true" class="icon fas fa-times Button-icon"></i><span class="Button-label">移除</span></button></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="contentwb">
+                        <div class="textinfo"><strong><span class="username">Mizue&#39;s Blog</span></strong></div>
+                        <div class="cont">
+                            <div class="circletop">
+                                
+                                    
+                                    <a href="/about/" title="关于">
+                                        <i class="bi bi-file-earmark-person-fill"></i>
+                                    </a>
+                                
+                                    
+                                    <a href="/about/" title="Github">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="iconbadge"></div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-
-
-  
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
         
-          <li>
-            <a href="/2025/02/22/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      
-      &copy; 2025 John Doe<br>
-      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
+        <div class="AfruxWidgets-Widget Afrux-ForumStatsWidgetWidget">
+            <div class="AfruxWidgets-Widget-title">
+                <span class="AfruxWidgets-Widget-title-icon">
+                    <i aria-hidden="true" class="bi bi-bell-fill"></i>
+                </span>
+                <span class="AfruxWidgets-Widget-title-label">公告</span>
+                <div class="AfruxWidgets-Widget-title-desc">
+                </div>
+            </div>
+            <div class="AfruxWidgets-Widget-content">
+                <p>这是一个公告</p>
+            </div>
+        </div>
     
+    <div class="AfruxWidgets-Widget Afrux-ForumStatsWidgetWidget">
+        <div class="AfruxWidgets-Widget-title">
+            <span class="AfruxWidgets-Widget-title-icon">
+                <i aria-hidden="true" class="bi bi-alexa"></i>
+            </span>
+            <span class="AfruxWidgets-Widget-title-label">统计</span>
+            <div class="AfruxWidgets-Widget-title-desc">
+            </div>
+        </div>
+        <div class="AfruxWidgets-Widget-content">
+            <div class="Afrux-ForumStatsWidget-grid">
+                    <p>访客数<span id="busuanzi_value_site_uv"></span>人</p>
+                    <p>访问量<span id="busuanzi_value_site_pv"></span>次</p>
+        </div>
+    </div>
+</div>
+<div class="AfruxWidgets-bottomWidgetSection AfruxWidgets-WidgetSection"></div>
+
+                </div>
+            </div>
+        </div>
+
+    <div id="flarum-loading" style="display: none;">
+        正在加载…
+    </div>
+
+    <noscript>
+        <div class="Alert">
+            <div class="container">
+                请使用更现代的浏览器并启用 JavaScript 以获得最佳浏览体验。
+            </div>
+        </div>
+    </noscript>
+
+    <div class="App-composer">
+        <div class="container">
+            <div id="composer">
+                <div class="Composer " style="display: none; bottom: -300px; height: 300px;">
+                    <div class="Composer-handle" style="cursor: row-resize;"></div>
+                    <ul class="Composer-controls">
+                        <li class="item-minimize App-backControl"><button class="Button Button--icon Button--link hasIcon" type="button" aria-label="最小化" itemclassname="App-backControl"><i aria-hidden="true" class="icon fas fa-minus minimize Button-icon"></i><span class="Button-label"></span></button></li>
+                        <li class="item-fullScreen"><button class="Button Button--icon Button--link hasIcon" type="button" aria-label="全屏"><i aria-hidden="true" class="icon fas fa-expand Button-icon"></i><span class="Button-label"></span></button></li>
+                        <li class="item-close"><button class="Button Button--icon Button--link hasIcon" type="button" aria-label="关闭"><i aria-hidden="true" class="icon fas fa-times Button-icon"></i><span class="Button-label"></span></button></li>
+                    </ul>
+                    <div class="Composer-content"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+</div>
+
+    <div class="posts-ls cm9 c9 p9 m12">
+    <div class="btns" style="margin: auto;width: min-content;">
+        
+        <div class="btn"> 1 </div>
+        
+    </div>
+    </div>
 
 
-<script src="/js/jquery-3.6.4.min.js"></script>
-
-
-
-  
-<script src="/fancybox/jquery.fancybox.min.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
 
 
 
 
 
-  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
-</html>
+            <hr>
+<div>
+    
+<!--这里是靠左的底栏-->
+<a href="https://icp.gov.moe/?keyword=20221982" target="_blank">萌ICP备20221982号</a>
+
+</div>
+<div style="text-align: right;">
+
+<!--这里是靠右的底栏-->
+<p>Theme is <a target="_blank" rel="noopener" href="https://github.com/ning0818/hexo-theme-ning">Ning</a> By <a target="_blank" rel="noopener" href="https://www.yuanning0818.tk">Ning0818</a></p>
+<p>Powerd By <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a></p>
+
+
+</div>
+        </div>
+    </body>
+    </html> 
